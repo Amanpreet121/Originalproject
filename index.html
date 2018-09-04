@@ -5,108 +5,113 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Responsive Website</title>
-    <link rel="stylesheet" href="response.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="style.css">  
+    <link rel="stylesheet" href="about.css"> 
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
    
+    <div class="container"><!--............Created a main container for the page...........-->
+       
+     <!--.............................Main header with navigation Menu...............-->  
+        <div class="header">
+                <div class="topnav">
+                        <nav class="navigation">
+                                <ul class="links">
+                                        <li><a href="#" class="link">Home</a></li> 
+                                        <li><a href="#" class="link">AboutUs</a></li>
+                                        <li><a href="#" class="link">Social</a></li>
+                                        <li><a href="#" class="link">Contact US</a></li>                                  
+                                </ul>       
+                        </nav>
+                </div>
+                <div class="mainheading">
+                        <h1>Home Decor</h1>
+                        <h2><i>With Difference</i></h2>     
+                </div>
+        </div>
+        
+     <!--.......................About us...............-->
+     
+     <div class="aboutbox">
+            <h1>Meet Our Team</h1>                    
+                <div class="col-4">     
+                    <img src="images/pic1.png" alt="text1">
+                    <h2>Heading1</h2>
+                    <p>We put a text here to explain abt the work style.paragraph paragraph </p>      
+                </div>                     
+                <div class="col-4">     
+                    <img src="images/pic2.jpg" alt="text1">
+                    <h2>Heading1</h2>
+                    <p>We put a text here to explain abt the work style paragraph paragraph</p>            
+                </div> 
+                <div class="col-4">   
+                    <img src="images/pic4.png" alt="text1">
+                    <h2>Heading1</h2>
+                    <p>We put a text here to explain abt the work style paragraph paragraph</p>  
+                </div>                 
+        </div>          
+<!--.............................Image box...........................-->
 
-    <!--    Navigation MEnu    -->    
-        <header class="head1">
-            <div class="top">
-                <nav class="navigation">
-                        <ul class="links">
-                                <li><a href="#" class="link">Contact US</a></li>    
-                                <li><a href="#" class="link">Social</a></li>
-                                <li><a href="#" class="link">AboutUs</a></li>
-                                <li><a href="#" class="link">Home</a></li>  
-                        </ul>       
-                </nav>
-            </div>
-        </header>
+        <div class="imgbox">
+            <div class="imgrow">
+                <div class="col-3">
+                    <img src="images/artpic1.jpg" alt="show picture">    
+                </div>   
+                <div class="col-3">
+                    <img src="images/artpic2.jpg" alt="show picture">    
+                </div>  
+                <div class="col-3">
+                   <img src="images/artpic3.jpg" alt="show picture">    
+                </div>  
+                <div class="col-3">
+                   <img src="images/artpic4.png" alt="show picture">    
+                </div> 
+            </div>                  
+        </div>        
+<!--.................................Contact Page...........................-->
+        <div class="contactbox">
+                   <h2>Contact US</h2> 
+                   <hr style="width:100px;">
+
+                <div class="box4form">
+                    <form >
+                        <input type="text" size="50" placeholder="Name"><br><br>
+                        <input type="email" size="50" placeholder="Email"><br><br>
+                        <textarea name="" id="" cols="46" rows="4" placeholder="Message"></textarea><br><br>
+                        <input type="button" class="button1" value="SEND">
+                    </form>
+                </div> 
+                <div class="box4map">
+                <iframe class="map1" src="https://www.google.com/maps/embed?pb" width="250" height="200"  allowfullscreen></iframe>
+               </div> 
+            </div> 
+    <!--.........................Footer Box.  Showing Logos................................................-->
+        <div class="footerbox">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-google"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+                <a href="#" class="fa fa-pinterest"></a>
+        </div>       
+        
+
+        
+
+
+    </div>   <!--.....................closing container Div................-->
     
-    <!--         ....................  First Haeding Box    .........................  -->
-    <main>   
-        <section>
-                    <div class="box1"> 
-                        <div class="heading1">
-                             <h1>Premium Quality And Design</h1> 
-                             <h2>Since 1978</h2>        
-                        </div>                                                     
-                    </div>        
-        </section>
-<!--....................................Box2......About Us .................-->
-        <section>    
-            <div class="aboutbox">
-                <h1>Meet Our Team</h1>                    
-                        
-                            <div class="col-4">
-                             
-                                    <img src="images/pic1.png" alt="text1">
-                                    <h2>Heading1</h2>
-                                    <p>We put a text here to explain abt the work style.paragraph paragraph </p>
-                                
-                            </div> 
-                        
-                            <div class="col-4">
-                                
-                                     <img src="images/pic2.jpg" alt="text1">
-                                     <h2>Heading1</h2>
-                                     <p>We put a text here to explain abt the work style paragraph paragraph</p>
-                                
-                            </div>  
-                     
-                            <div class="col-4">
-                                
-                                     <img src="images/pic4.png" alt="text1">
-                                     <h2>Heading1</h2>
-                                     <p>We put a text here to explain abt the work style paragraph paragraph</p>  
-                                
-                         </div>                 
-            </div>          
-        </section>
-<!--..................................articals,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,-->
-        <section>
-                <div class="imgbox">
-                    <div class="box3">
-                         <img src="images/artpic1.jpg" alt="show picture">    
-                    </div>   
-                    <div class="box3">
-                         <img src="images/artpic2.jpg" alt="show picture">    
-                    </div>  
-                    <div class="box3">
-                         <img src="images/artpic3.jpg" alt="show picture">    
-                    </div>  
-                    <div class="box3">
-                         <img src="images/artpic4.png" alt="show picture">    
-                    </div>               
-                </div>        
-        </section>
-<!-- ......... dajhgdjgl-->
-        <section>
-                <div class="footerbox">
-                        <div class="box4head">
-                            <h2>Contact US</h2> 
-                        </div>
-                        <div class="box4">
-                            <div class="box4form">
-                                <form >
-                                    <input type="text" size="50" placeholder="Name"><br><br>
-                                    <input type="email" size="50" placeholder="Email"><br><br>
-                                    <textarea name="" id="" cols="46" rows="4" placeholder="Message"></textarea><br><br>
-                                    <input type="button" class="button1" value="SEND">
-                                </form>
-                            </div> 
-                            <div class="box4map">
-                                <iframe class="map1" src="https://www.google.com/maps/embed?pb" width="250" height="200"  allowfullscreen></iframe>
-                            </div> 
-                        </div> 
-                        </div>        
-                </div>        
-        </section>
+    
+    <!--
+
+   
+
+        
+      
+               
 
     </main>
-    
+-->
 </body>
 </html>

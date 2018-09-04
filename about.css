@@ -4,25 +4,33 @@
 }
  .aboutbox{
      background-color: rgb(143, 94, 119);
-     height:500px;
-     margin-top: -20px;     
+     height:400px;
+     margin-top: -20px;  
+    
  }
  .col-4 img{
     width:200px;
     height:150px;
-    border-radius: 50%;
-   
+    border-radius: 50%; 
+    position:relative;
+    left:60px;
+
 }
 .col-4{
-    margin-left: 5px;
+    margin-left:120px;
+    margin-right:50px;
     float: left; 
     padding:5px;
-    border: 5px solid black;
+    width:300px;
+   
 }
 
 .col-4 h2,p{
    text-align: center;
-   border: 5px solid black;
+   color: beige;  
+}
+.col-4 p{
+    font-size: 15px;
 }
 
 

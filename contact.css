@@ -1,0 +1,29 @@
+.contactbox{
+    background-color: rgb(202, 67, 168);
+    height:350px;
+    margin-top: -20px;
+ }
+ .contactbox h2{
+    padding-top: 10px;
+    text-align: center;
+    color: blue;
+}
+.box4map{
+    
+    margin-top: 15px;
+}
+.box4form{
+   
+    float: left;
+    padding:20px;
+    margin-left:400px;
+    margin-top: 10px;
+
+}   
+.button1{
+    padding:8px 155px;
+    color: #FFF;
+    background-color: black;
+    border: 0px;    
+}
+ 
