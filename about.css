@@ -4,7 +4,7 @@
 }
  .aboutbox{
      background-color: rgb(143, 94, 119);
-     height:400px;
+     
      margin-top: -20px;  
     
  }
@@ -17,12 +17,9 @@
 
 }
 .col-4{
-    margin-left:120px;
-    margin-right:50px;
     float: left; 
     padding:5px;
-    width:300px;
-   
+    width:33.33333%;
 }
 
 .col-4 h2,p{
