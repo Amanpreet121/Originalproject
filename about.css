@@ -1,33 +1,23 @@
 .aboutbox h1{
     text-align: center;
-    padding: 15px;
-}
- .aboutbox{
-     background-color: rgb(143, 94, 119);
-     
-     margin-top: -20px;  
-    
- }
- .col-4 img{
-    width:200px;
-    height:150px;
-    border-radius: 50%; 
-    position:relative;
-    left:60px;
-
-}
-.col-4{
-    float: left; 
-    padding:5px;
-    width:33.33333%;
+    padding: 10px;
 }
 
-.col-4 h2,p{
-   text-align: center;
-   color: beige;  
+
+ .col-4{
+    float:left;
+    width:100%; 
+    padding:20px;  
+}    
+.box{
+    width:250px;
+    margin: 0 10px;   
 }
-.col-4 p{
-    font-size: 15px;
+.col-4 img{
+    height:200px;
+    width:250px;
+    border-radius:50%;
 }
+ 
 
 

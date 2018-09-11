@@ -4,36 +4,45 @@
 .aboutbox::after{
     content:"";
     clear:both;
-    display:block;
+    display:table;
 }
 .imgbox::after{
     content:"";
     clear:both;
-    display:block;
+    display:table;
 }
 .contactbox::after{
     content:"";
     clear:both;
-    display:block;
+    display:table;
 }
 .footerbox::after{
     content:"";
     clear:both;
-    display:block;
+    display:table;
 }
 
-@media screen and (max-width: 640px){
+@media screen and (min-width: 640px){
+   
+    .col-4{
+        width: 20%;
+    }
+     .col-3{
+         width:16.6%;
+     }
+     .col-6{
+         width:50%;
+     }
+    
+   
+}
+/*@media screen and (min-width: 360px) and (max-width: 481px){
    
     .col-4{
         width: 100%;
     }
-    .col-3{
-        width: 100%;
-    }
-    .col-6{
-        width: 100%;
-    }
-    
-
+     .col-3{
+         width:100%;
+     }
    
-}
+}*/
